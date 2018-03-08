@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*
+  @author wangshijie
+*/
+@import "base.css";
+body,html{
+  pdding:0;
+  margin: 0;
+}
+img,a{
+  border:0;
+}
+body{
+  background: url('../img/blue.gif');
+}
+.login-head{
+  position: absolute;
+  top: 10%;
+  left:0;
+  right:0;
+  margin:0 auto;
+  width: 70%;
+  height: auto;
+  text-align: center;
+  font-size: 0.2rem;
+  color:#fff;
+}
+.login-head .img-box,
+.login-head .img-box img{
+  width: 80%;
+  border-radius: 50%;
+  margin:0 auto;
+}
+
+form{
+  margin-top: 1rem;
+}
+.input-group{
+  margin: 0.3rem 0;
+}
+.login{
+  width: 100%;
+  height: 0.6rem;
+  line-height: 0.4rem;
+  border-radius: 0.2rem;
+  color: #666;
+}
